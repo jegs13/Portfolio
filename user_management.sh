@@ -87,7 +87,7 @@ fi
 if mkdir /$newuser; then
 echo /$newuser directory created successfully.
 else
-echo /$newuser directory couldn't be created.
+echo /$newuser directory could not be created.
 fi
 
 # Set the ownership of the directory to the user and group created.
