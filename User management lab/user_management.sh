@@ -76,7 +76,7 @@ done
 
 # Ensure that the new user created is part of the new group created.
 
-if groups $newuser | grep $groupname ; then
+if groups "$newuser" | grep "$groupname" ; then
 echo "The new user is part of the group created."
 else
 echo "The new user is not part of the new group."
@@ -92,7 +92,7 @@ fi
 
 # Set the ownership of the directory to the user and group created.
 
-chown $newuser:$groupname /$newuser
+chown "$newuser:$groupname" "/$newuser"
 
 # Set the permissions of the directory to full control for the owner and full control for the group created
 
