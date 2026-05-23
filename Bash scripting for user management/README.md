@@ -67,7 +67,7 @@ I also used a `while` loop to repeatedly request input until the user provides a
 
 
 
-I used `if` conditionals together with test brackets `\[]` to test if the group already exists, the script asks the user to enter a different name.
+I used `if` conditionals together with test brackets `[]` to test if the group already exists, the script asks the user to enter a different name.
 
 
 
@@ -107,7 +107,7 @@ This prevents duplicate users from being created.
 
 
 
-Once again, I used ```while```, ```if``` and \[] in order to check if the user is entering an acceptable name and give them another chance in case they do not. 
+Once again, I used ```while```, ```if``` and `[]` in order to check if the user is entering an acceptable name and give them another chance in case they do not. 
 
 
 
